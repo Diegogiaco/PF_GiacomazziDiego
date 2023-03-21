@@ -1,8 +1,25 @@
 /*SERVICIO*/
+.servicios-list{
+    grid-area: servicios;
+}
+.images-2{
+    grid-area: img;
+}
+.encabezado {
+    grid-area: h2;
+}
+.pie {
+    grid-area: h3;
+}
 .work{
+    display: grid;
     margin-top: 30px;
     margin-bottom: 40px;
     font-family: $fuente; 
+    grid-template-areas: 
+    'h2 h2'
+    'servicios img'
+    'h3 h3';
     li{
     font-size: 20px;
     }
