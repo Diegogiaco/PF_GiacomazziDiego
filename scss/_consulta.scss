@@ -1,0 +1,10 @@
+/*CONSULTA*/
+.form-3{
+  @include marg-width ;
+  flex-direction: column;
+
+}
+.text-1{
+    height: 150px;
+    width: 400px;
+}
