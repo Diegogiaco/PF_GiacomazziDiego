@@ -157,8 +157,9 @@ p {
     height: 60%;
   }
   /*INDEX*/
-  p {
-    display: block;
+  .texto-1 {
+    justify-content: center;
+    height: auto;
   }
   /*TURNERO*/
   .form-1 {
@@ -166,6 +167,24 @@ p {
   }
   .form-2 {
     margin: 25px;
+  }
+}
+/*laptop 1/2*/
+@media (max-width: 925px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 45px;
+  }
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*laptop 3/4*/
+@media (max-width: 840px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 41px;
   }
 }
 /*Tablet*/
@@ -190,11 +209,36 @@ p {
     flex-wrap: wrap;
   }
 }
+/*Tablet 1/4*/
+@media (max-width: 726px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 35px;
+  }
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+}
+/*Tablet 1/2*/
+@media (max-width: 650px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 30px;
+  }
+}
+/*Tablet 3/4*/
+@media (max-width: 560px) {
+  /*GENERAL*/
+  .titulo {
+    font-size: 23px;
+  }
+}
 /*mobile*/
 @media (max-width: 426px) {
   /*GENERAL*/
   .titulo {
-    font-size: 22px;
+    font-size: 20px;
   }
   .menu {
     flex-direction: column;
