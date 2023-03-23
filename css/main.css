@@ -449,5 +449,36 @@ p {
     width: auto;
   }
 }
+/*ANIMACIONES*/
+/*header*/
+.boton:hover {
+  background-color: rgb(169, 170, 227);
+}
+
+.cons-1 {
+  transition: 2s;
+}
+
+.cons-1:hover {
+  animation: rotacion;
+}
+
+@keyframes rotacion {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(90deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  75% {
+    transform: rotateZ(270deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
