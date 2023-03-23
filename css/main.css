@@ -45,13 +45,6 @@ body {
 }
 
 /*FOOTER*/
-footer {
-  padding-left: 100px;
-  bottom: 0px;
-  background-color: rgb(134, 135, 204);
-  font-size: 20px;
-}
-
 .casa {
   list-style-image: url(../media/casa.png);
   grid-area: casa;
@@ -68,7 +61,12 @@ footer {
 }
 
 footer {
+  padding-left: 100px;
+  bottom: 0px;
+  background-color: rgb(134, 135, 204);
+  font-size: 20px;
   display: grid;
+  width: auto;
   column-gap: 20px;
   grid-template-areas: "casa correo tel";
 }
@@ -318,6 +316,11 @@ p {
     width: 60%;
     height: 60%;
   }
+  /*FOOTER*/
+  footer {
+    padding-left: 30px;
+    grid-template-areas: "casa correo" "tel tel";
+  }
   /*INDEX*/
   .texto-1 {
     justify-content: center;
@@ -366,6 +369,11 @@ p {
     width: 60px;
     height: 60px;
   }
+  /*FOOTER*/
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
   /*PERSONAL*/
   .personal-pages {
     flex-wrap: wrap;
@@ -380,6 +388,11 @@ p {
   .menu {
     flex-direction: column;
     height: auto;
+  }
+  /*SERVICO*/
+  .work {
+    display: flex;
+    flex-direction: column;
   }
 }
 /*Tablet 1/2*/
@@ -409,6 +422,10 @@ p {
   }
   .boton {
     font-size: 20px;
+  }
+  /*FOOTER*/
+  .work {
+    padding-left: 0px;
   }
   /*PERSONAL*/
   .personal img {

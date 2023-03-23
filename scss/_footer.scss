@@ -1,10 +1,4 @@
 /*FOOTER*/
-footer {
-    padding-left: 100px;
-    bottom: 0px;
-    background-color: $color-general;
-    font-size: 20px;
-}
 .casa{
     list-style-image: url(../media/casa.png);
     grid-area: casa;
@@ -18,7 +12,12 @@ footer {
     grid-area: tel;
 }
 footer {
+    padding-left: 100px;
+    bottom: 0px;
+    background-color: $color-general;
+    font-size: 20px;
     display: grid;
+    width: auto;
     column-gap: 20px;
     grid-template-areas: 
     'casa correo tel';
