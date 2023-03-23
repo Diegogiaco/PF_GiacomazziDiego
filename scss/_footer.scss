@@ -1,6 +1,25 @@
 /*FOOTER*/
 footer {
+    padding-left: 100px;
     bottom: 0px;
     background-color: $color-general;
     font-size: 20px;
+}
+.casa{
+    list-style-image: url(../media/casa.png);
+    grid-area: casa;
+}
+.correo{
+    list-style-image: url(../media/correo.png);
+    grid-area: correo;
+}
+.telefono {
+    list-style-image: url(../media/celular.png);
+    grid-area: tel;
+}
+footer {
+    display: grid;
+    column-gap: 20px;
+    grid-template-areas: 
+    'casa correo tel';
 }

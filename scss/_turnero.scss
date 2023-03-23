@@ -6,6 +6,12 @@
     @include marg-width;
 }
 .maps-2{
-    width: 50%;
-    height: 50%;
+    align-self: center;
+    justify-self: center;
+    width: 500px;
+    height: 500px;
+}
+.boton-2 {
+    display: flex;
+    justify-content: space-between;
 }
