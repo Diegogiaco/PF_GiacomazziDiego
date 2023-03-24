@@ -385,7 +385,7 @@ p {
   }
   /*PERSONAL*/
   .personal-pages {
-    flex-wrap: wrap;
+    grid-template-areas: "person-1 person-2" "person-3 person-3";
   }
 }
 /*Tablet 1/4*/
@@ -416,6 +416,11 @@ p {
   /*GENERAL*/
   .titulo {
     font-size: 23px;
+  }
+  /*PERSONAL*/
+  .personal-pages {
+    display: flex;
+    flex-direction: column;
   }
 }
 /*mobile*/
